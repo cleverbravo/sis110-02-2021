@@ -12,7 +12,7 @@ int main()
     cout<<"7.Estructuras"<<endl;
 
     cout<<"\n\n\n\nBibliografía\n";
-    cout<<"*Aprendiendo a programar en C++,Clever Bravo\n";
+    cout<<"*Aprendiendo a programar en C++,Clever B.\n";
     cout<<"*http://conclase.net/c,comunidad\n";
     cout<<"*Competitive Programming,Steven Halim\n";
     cout<<"*Introduccion a la programacion, Luis Joyanes\n";
