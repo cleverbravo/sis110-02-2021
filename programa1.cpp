@@ -18,8 +18,6 @@ int main()
     cout<<"*Introduccion a la programacion, Luis Joyanes\n";
     cout<<"*Programacion en C++, Luis Joyanes\n";
     cout<<"*http://biblioteca.uatf.edu.bo/jspui/\n";
-    cout<<"*username: estudiante@uatf.edu.bo\n";
-    cout<<"*password: tomasfrias\n";
     cout<<"*The art of computer programming, Donald Knuth\n";
 
     cout<<"*GitHub, repositorio de codigo.\n";
