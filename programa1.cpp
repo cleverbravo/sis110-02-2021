@@ -19,7 +19,6 @@ int main()
     cout<<"*Programacion en C++, Luis Joyanes\n";
     cout<<"*http://biblioteca.uatf.edu.bo/jspui/\n";
     cout<<"*The art of computer programming, Donald Knuth\n";
-
     cout<<"*GitHub, repositorio de codigo.\n";
     cout<<"GitLab, repositorio de codigo.\n";
     return 0;
