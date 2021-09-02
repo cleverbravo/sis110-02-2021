@@ -11,3 +11,51 @@ Input           Output
                 5
                 1
 */
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"introdusca tres valores por favor :D \n";
+    cin>>a>>b>>c;
+    cout<<"los valores son:"<<endl;
+    if(a>b)
+    {
+        if(a>c)
+        {
+            cout<<a<<endl;
+            if(b>c)
+                cout<<b<<endl<<c;
+            else
+                cout<<c<<endl<<b;
+        }
+        else
+        {
+            cout<<c<<endl;
+            if(a>b)
+                cout<<a<<endl<<b;
+            else
+                cout<<b<<endl<<a;
+        }
+    }
+    else
+    {
+        if(b>c)
+        {
+            cout<<b<<endl;
+            if(a>c)
+                cout<<a<<endl<<c;
+            else
+                cout<<c<<endl<<a;
+        }
+        else
+        {
+            cout<<c<<endl;
+            if(a>b)
+                cout<<a<<endl<<b;
+            else
+                cout<<b<<endl<<a;
+        }
+    }
+    return 0;
+}
