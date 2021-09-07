@@ -5,6 +5,7 @@ Input       Output
 34 + 8      42
 100 - 1     99
 8 / 4       2
+8 / 0       error
 */
 #include <iostream>
 using namespace std;
@@ -27,7 +28,10 @@ int main()
             cout<<a*b;
             break;
         case '/':
-            cout<<a/b;
+            if(b==0)
+                cout<<"error";
+            else
+                cout<<a/b;
             break;
     }
     return 0;
