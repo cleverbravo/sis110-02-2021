@@ -17,7 +17,7 @@ using namespace std;
 int main()
 {
     int a,b,c,mab,mbc,menor,mayor;
-    cout<<"introdusca tres valores por favor :D \n";
+    cout<<"introduzca tres valores por favor :D \n";
     cin>>a>>b>>c;
     cout<<"los valores son:"<<endl;
     mab=max(a,b);
